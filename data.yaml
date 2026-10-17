@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 10
+names: ['bicycle', 'bus', 'car', 'cng', 'human_hauler', 'motorcycle', 'pedestrian', 'pickup_van', 'rickshaw', 'truck']
+
+roboflow:
+  workspace: md-rakkib-hossain
+  project: dhakanightv2
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/md-rakkib-hossain/dhakanightv2/1
