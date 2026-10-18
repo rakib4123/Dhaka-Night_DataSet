@@ -1,6 +1,6 @@
-train: ../train/images
-val: ../valid/images
-test: ../test/images
+train: train/images
+val: val/images
+test: test/images
 
 nc: 10
 names: ['bicycle', 'bus', 'car', 'cng', 'human_hauler', 'motorcycle', 'pedestrian', 'pickup_van', 'rickshaw', 'truck']
